@@ -1,0 +1,35 @@
+html, body{
+  background: #b8bbc1;
+  color: #7f8184;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .large{
+    display: none;
+  }
+  .tablet{
+    display: none;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+  .large{
+    display: none;
+  }
+  .device{
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tablet{
+    display: none;
+  }
+  .device{
+    display: none;
+  }
+}
